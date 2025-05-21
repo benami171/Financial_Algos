@@ -24,7 +24,7 @@ pip install numpy networkx matplotlib
 3. Run the demo script:
 
    ```bash
-   python q_2.py
+   python Q_2.py
    ```
 
 4. The script will pop up a series of plots—one per iteration—showing the residual bipartite graph, the extracted matching (in red), and edge weights.
@@ -33,7 +33,7 @@ pip install numpy networkx matplotlib
 
 To decompose your own matrix:
 
-* Edit the `A` variable at the bottom of `birkhoff.py` with your $n \times n$ doubly‑stochastic matrix (rows and columns sum to 1).
+* Edit the `A` variable at the bottom of `Q_2.py` with your $n \times n$ doubly‑stochastic matrix (rows and columns sum to 1).
 * Rerun the script.
 
 ```python
