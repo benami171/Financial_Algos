@@ -1,12 +1,6 @@
 # Birkhoff Decomposition Demo
 
-A small Python module to perform and visualize the Birkhoff–von Neumann decomposition of any doubly‑stochastic matrix.
-
-## Features
-
-* Decomposes an $n \times n$ doubly‑stochastic matrix into a convex combination of permutation matrices.
-* Extracts a perfect matching at each iteration and subtracts its minimal weight.
-* Plots each step on a bipartite graph (via NetworkX + Matplotlib), highlighting the current matching and edge weights.
+A small Python module to perform and visualize the Birkhoff decomposition of any doubly‑stochastic matrix.
 
 ## Requirements
 
@@ -30,7 +24,7 @@ pip install numpy networkx matplotlib
 3. Run the demo script:
 
    ```bash
-   python birkhoff.py
+   python q_2.py
    ```
 
 4. The script will pop up a series of plots—one per iteration—showing the residual bipartite graph, the extracted matching (in red), and edge weights.
